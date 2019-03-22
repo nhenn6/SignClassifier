@@ -27,7 +27,7 @@ The goals / steps of this project are the following:
 [image8]: ./TestImages/Yield.png "Traffic Sign 5"
 
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
 ---
 ### Writeup / README
@@ -78,7 +78,7 @@ Here is an example of an an augmented image:
 The difference between the original data set and the augmented data set is that all types of signs have a representation of at least 2000 images. This creates a fairly level playing field for the model to choose from so that it is not biased towards one sign more than others. The augmented set also contains some rotated images which I believe will help the model learn the sign shapes relationally to other parts of the sign rather than by their location in the image. 
 
 
-####2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
+#### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 My final model consisted of the following layers:
 
